@@ -100,7 +100,7 @@ gloStreamingTemplate //allows carat notation for OLED display
 
   // Network parameters for IODR #1
   byte mac[] = { 0x2C, 0xF7, 0xF1, 0x08, 0x10, 0x4A }; //mac address for IODR #1 new ethernet shield W5500
-  byte ip[] =      { 129, 170, 64, 61 }; //the IP address for the IODR #1
+  byte ip[] =      { 129, 170, 64, 61 }; //the IP address for IODR #1
 #endif
 
 
@@ -116,7 +116,7 @@ gloStreamingTemplate //allows carat notation for OLED display
 
   // Network parameters for IODR #2
   byte mac[] = { 0x90, 0xA2, 0xDA, 0x0D, 0xA7, 0x42 }; //mac address for IODR #2
-  byte ip[] =      {}; // I need to request a static IP address for this device
+  byte ip[] =      {129, 170, 64, 63}; //the IP address for IODR #2
 #endif
 
 
@@ -132,7 +132,7 @@ gloStreamingTemplate //allows carat notation for OLED display
 
   // Network parameters for IODR #3
   byte mac[] = { 0x90, 0xA2, 0xDA, 0x0D, 0x45, 0x10 }; //mac address for IODR #1 old ethernet shield
-  byte ip[] =      { 129, 170, 64, 62 }; //the IP address for the IODR #3
+  byte ip[] =      { 129, 170, 64, 62 }; //the IP address for IODR #3
 #endif
 
 
